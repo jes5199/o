@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+LAST=`printf "%q" "${!#}"`
+MOST="`printf "%q " "${@}"`"
+
+read -r -e -i "$LAST" -p "o: $MOST" REPLACE
+
+eval "$MOST$REPLACE"
+
