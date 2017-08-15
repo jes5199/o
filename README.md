@@ -4,17 +4,17 @@
 
 You type:
 ```bash
-bash$ o mv really_complicated_filename_that_you_want_to_change.txt
+bash$ o mv really_complicated_filename_you_want_to_change.txt
 ```
 
 then a prompt opens where you can edit the destination file name:
 ```bash
-o: mv really_complicated_filename_that_you_want_to_change.txt really_complicated_filename_that_you_want_to_change.txt▏
+o: mv really_complicated_filename_you_want_to_change.txt really_complicated_filename_you_want_to_change.txt▏
 ```
 notice that the destination file name is *editable* so you can arrow around and whatever
 
 ```bash
-o: mv really_complicated_filename_that_you_want_to_change.txt really_complicated_filename_that_you_are_changing▏.txt
+o: mv really_complicated_filename_you_want_to_change.txt really_complicated_filename_you_are_changing▏.txt
 ```
 
 press enter and the command is executed as it appears
